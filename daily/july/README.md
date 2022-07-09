@@ -60,10 +60,12 @@ Ví dụ trên là slide trên array.
 
 Nếu chỉ dùng Dp mà ko sử dụng deque ta sẽ có code dp bottom-up như sau:
 
+
+
+```python
 from typing import List
 from math import inf
 
-```python
 class Solution:
     def maxResult(self, nums: List[int], k: int) -> int:
         dp = [0] * len(nums)
