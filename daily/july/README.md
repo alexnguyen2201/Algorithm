@@ -24,3 +24,5 @@ for (int i = 1; i <= N; ++i) {
     if (i >= k) minRange[i] = A[dq.front()]; 
 }
 ```
+
+
