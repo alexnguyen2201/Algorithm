@@ -1,5 +1,3 @@
-
-f2 = [[0 for x in range(2)] for _ in range(3)]
-
-
-print(f2)
+cols = 2
+rows = 3
+f = [[0 for x in range(cols)] for _ in range(rows)]
