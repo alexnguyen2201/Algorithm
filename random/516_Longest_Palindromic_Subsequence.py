@@ -33,3 +33,4 @@ class Solution:
 
 s = Solution()
 print(s.longestPalindromeSubseq("nwlrbbmqbh"))
+print(s.longestPalindromeSubseq("nwlrbbmqbh"))
