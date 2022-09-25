@@ -12,4 +12,4 @@ speed_heap = []
 speed_sum, perf = 0, 0
 for curr_efficiency, curr_speed in candidates:
     if len(speed_heap) > k-1:
-        speed_sum -=
+        pass
