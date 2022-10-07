@@ -4,5 +4,6 @@
   "python.linting.flake8Enabled": true,
   "explorer.sortOrder": "type",
   "python.testing.unittestEnabled": false,
-  "python.testing.pytestEnabled": true
+  "python.testing.pytestEnabled": true,
+  "editor.formatOnSave": true
 }
