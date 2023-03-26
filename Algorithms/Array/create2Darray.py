@@ -3,7 +3,7 @@ rows = 3
 f = [[0 for x in range(cols)] for _ in range(rows)]
 
 
-
+print(f)
 memo = [[0] * (rows + 1) for _ in range(cols + 1)]
 
 # Example
