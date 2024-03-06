@@ -1,6 +1,9 @@
 import math
 
 
+
+
+
 def primeFactors(n):
     if n < 0:
         n = n*(-1)
@@ -19,6 +22,23 @@ def primeFactors(n):
 
     return prime_set
 
+
+def primeFactors2(n):
+    ans = []
+    d = 2
+    while n > 1:
+        while n % d == 0:
+            ans += [d]
+            n /= d
+        d += 1
+    return ans
+
+"""
+Vì nó chạy tương tự cái hàm phía trên nên thuật toán có độ phức tạp 
+Time: O(cănN)
+Space: O(1)
+"""
+# https://leetcode.com/problems/2-keys-keyboard/editorial/?envType=list&envId=55ac4kuc
 
 def union_prime_set(lst):
     prime_set = set()
