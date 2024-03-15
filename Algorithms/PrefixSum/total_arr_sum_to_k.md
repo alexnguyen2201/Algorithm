@@ -13,3 +13,5 @@ class Solution:
 
         return total_subarrays
 ```
+
+[link](https://www.youtube.com/watch?v=fFVZt-6sgyo)
