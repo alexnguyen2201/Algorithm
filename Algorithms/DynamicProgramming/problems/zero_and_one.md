@@ -15,7 +15,7 @@ class Solution:
         return dp[-1][-1]
 ```
 
-use reverse order to prevent use duplicated str in strs.
+use reverse order loop (of m,n) to prevent use duplicated str in strs.
 
 ## top down
 ```python
